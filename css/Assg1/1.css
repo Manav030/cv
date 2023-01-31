@@ -1,0 +1,48 @@
+body {
+    background-color: purple;
+}
+
+.outer-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    border-radius: 25px;
+    height: 50px;
+    width: 100%;
+}
+
+.inner-div {
+    background-color: grey;
+    border-radius: 25px;
+    padding: 10px;
+    
+
+}
+a{
+    text-decoration: none;
+}
+#profile
+{
+    background-color: blue;
+}
+#profile a
+{
+    color: white;
+}
+#end{
+    justify-content: end;
+}
+#center
+{
+    justify-content: center;
+}
+#space{
+    justify-content: space-between;
+}
+#around{
+    justify-content: space-around;
+}
+#even{
+    justify-content: space-evenly;
+}
